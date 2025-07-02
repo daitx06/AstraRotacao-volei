@@ -6,7 +6,7 @@ body {
 }
 
 .background {
-    background-image: linear-gradient(rgba(96, 50, 134, 0.92), rgba(96, 50, 134, 0.92)), url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
+    background-image: linear-gradient(rgba(96, 50, 134, 1.92), rgba(96, 50, 134, 1.92)), url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
