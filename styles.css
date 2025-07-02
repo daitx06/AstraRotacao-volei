@@ -5,13 +5,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.background{
-    background-image: linear-gradient(rgba(96, 50, 134, 0.6), rgba(96, 50, 134, 0.6),rgba(96, 50, 134, 0.6)),url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
+.background {
+    background-image: linear-gradient(rgba(96, 50, 134, 0.2), rgba(96, 50, 134, 0.2)), url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
     background-repeat: no-repeat;
-    background-position:center;
-    background-size: 1150px;
+    background-position: center;
+    background-size: cover;
     background-color: #603286;
 }
+
 
 .court-container {
     display: flex;
