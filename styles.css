@@ -179,6 +179,7 @@ button {
         width: 50%;
         font-size: 4vw;
         padding: 5px;
+        padding-right: -5px;
     }
 
     .text-input-container label {
