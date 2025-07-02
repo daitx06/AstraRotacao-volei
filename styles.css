@@ -6,11 +6,13 @@ body {
 }
 
 .background {
-    background-image: linear-gradient(rgba(96, 50, 134, 1.92), rgba(96, 50, 134, 1.92)), url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-color: #603286;
+    background-image: url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    filter: brightness(0.2);
 }
 
 
