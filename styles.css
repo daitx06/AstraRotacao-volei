@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.background{
+    background-image: linear-gradient(rgba(96, 50, 134, 0.6), rgba(96, 50, 134, 0.6)),url(./WhatsApp\ Image\ 2025-07-02\ at\ 18.18.32.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 1150px;
+    background-color: #603286;
+}
+
+.court-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.court-outer {
+    width: 330px; /* 300px + 10px (border) + 5px (inner border) + 5px (inner border) */
+    height: 330px; /* 150px + 10px (border) + 5px (inner border) + 5px (inner border) */
+    background-color: #0faabe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.court-border {
+    width: 310px;
+    height: 310px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.court {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #e58064;
+}
+
+.court::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+}
+
+.court::after {
+    top: 33%;
+    left: 0;
+    right: 0;
+    height: 5px;
+    transform: translateY(-50%);
+}
+
+.player {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: top 0.5s, left 0.5s;
+}
+
+#prevBtn, #nextBtn, button {
+    background-color: #0faabe;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pageIndicator {
+    font-size: 1.2em;
+}
+
+.carousel-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-controls, .middle-controls, .bottom-controls {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.text-input-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.text-input-container div {
+    margin: 5px;
+}
+
+.text-input-container label {
+    margin-right: 10px;
+}
+
+.line {
+    position: absolute;
+    background-color: #000;
+}
