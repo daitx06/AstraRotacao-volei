@@ -123,6 +123,7 @@ button {
     position: absolute;
     background-color: #000;
 }
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
@@ -185,6 +186,6 @@ button {
     }
 
     .line {
-        display: none; /* Oculta linhas no mobile para evitar poluição visual */
+        display: none;
     }
 }
